@@ -1,0 +1,12 @@
+body {
+    background-color: darkslategray;
+    }
+li {
+    border-bottom: 1px dashed darkblue;
+    }
+a:hover {
+    text-decoration:underline;
+}  
+a:visited {
+    color: greenyellow;
+}

@@ -1,7 +1,13 @@
 #header{
-    font-size: 100%;
+    font-size: 200%;
     background-color: lavenderblush;
-    color: green
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navigation{
+    font-size: 50%;
+     background-color: lavenderblush;
 }
 
 #footer{

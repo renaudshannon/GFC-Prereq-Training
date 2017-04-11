@@ -5,9 +5,30 @@ li {
     border-bottom: 1px dashed darkblue;
     font-style: italic;
     }
-a:hover {
-    text-decoration:underline;
-}  
+				
+a:link {
+	text-decoration: none;
+    color: darkblue;
+	}				
 a:visited {
-    color: greenyellow;
-}
+	text-decoration: none;
+    color: darkblue;
+	}
+a:hover {
+	text-decoration: underline;
+	color: darkblue;
+    background-color: Green
+	}				
+a:active {
+	text-decoration: none;
+    color: darkblue;
+    }
+thead {
+	background-color: lightslategray;
+	}					
+tbody tr:nth-child(even) {
+	background-color: cadetblue;
+	}					
+tbody tr:nth-child(odd) {
+	background-color: steelblue;
+	}

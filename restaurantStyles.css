@@ -5,11 +5,23 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#navigation{
-    font-size: 50%;
-     background-color: lavenderblush;
-}
-
+a:link {
+	text-decoration: none;
+    color: purple;
+	}				
+a:visited {
+	text-decoration: none;
+    color: darkcyan;
+	}
+a:hover {
+	text-decoration: underline;
+	color: purple;
+    font-weight: bold;
+	}				
+a:active {
+	text-decoration: none;
+    color: purple;
+    }
 #footer{
     font-size: 65%;
     background-color: lavenderblush;

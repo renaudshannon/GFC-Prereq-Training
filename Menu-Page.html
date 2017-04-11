@@ -8,19 +8,24 @@
             <style>
                 body {background-color:ivory;}
                 #content {font-style: italic; color: purple;}
+                #table2, #tr2, #td2 {border: 1px solid purple; border-collapse: collapse;}
+                #caption{text-align: left; text-decoration: underline;}
+                #tbody{text-align: left;}
             </style>
     </head>
     <body>
         <div id="header">
             <center><h1>The Java Stop</h1></center>
         <hr/>
+        </div>
+        <div id="navigation">
             <a href="Home-Page.html">Home</a> &emsp;
             <a href="Menu-Page.html">Menu</a> &emsp;                    
             <a href="Contact-Us-Page.html">Contact Us</a>
         </div>
         <div id="content">
             <hr/>
-            <center/><table>
+            <center/><table id="table1">
                 <tr>
                     <center/>
                     <td>
@@ -106,6 +111,30 @@
                         </p></h6>
                     </td>
                 </tr>
+            </table>
+            <br/>
+            <div>
+        <div id="beverages">
+            <table id="table2">
+                <caption id="caption">Beverages</caption>
+                <tbody id="tbody">
+                    <tr id="tr2">
+                        <td id="td2">Root Beer</td>
+                        <td id="td2">$3.00</td>
+                    </tr>
+                    <tr id="tr2">
+                        <td id="td2">Bottled Water</td>
+                        <td id="td2">$1.25</td>
+                    </tr>
+                    <tr id="tr2">
+                        <td id="td2">Lemonade</td>
+                        <td id="td2">$1.00</td>
+                    </tr>
+                    <tr id="tr2">
+                        <td id="td2">Iced Tea</td>
+                        <td id="td2">$1.24</td>
+                    </tr>
+                </tbody>             
             </table>
         </div>
         <div id="footer">

@@ -1,7 +1,7 @@
 #header{
     font-size: 200%;
-    background-color: lavenderblush;
-    color: green;
+    background-color: cornflowerblue;
+    color: darkblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -11,7 +11,7 @@ a:link {
 	}				
 a:visited {
 	text-decoration: none;
-    color: darkcyan;
+    color: greenyellow;
 	}
 a:hover {
 	text-decoration: underline;
@@ -24,6 +24,9 @@ a:active {
     }
 #footer{
     font-size: 65%;
-    background-color: lavenderblush;
-    color: green;
+    background-color: cornflowerblue;
+    color: darkblue;
+    position: absolute;
+    bottom: 0;
+    width:100%;
 }

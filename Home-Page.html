@@ -2,40 +2,60 @@
 <html>  
     <head>
         <title>The Java Stop Home Page</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
         <link href="restaurantStyles.css"
             rel="stylesheet"
             type="text/css"/>
-            <style>
-                body {
-                    background-color: darkcyan;
-                }
-            </style>
+        <style>
+            body {background-color: darkcyan;}
+            #content {color: purple;}
+        </style>
     </head>
     <body>
-        <div id="header">
-            <center/><h1>The Java Stop</h1>
-        <hr/>
-        </div>
-        <div id="navigation">
-            <a href="Home-Page.html">Home</a> &emsp;
-            <a href="Menu-Page.html">Menu</a> &emsp;                    
-            <a href="Contact-Us-Page.html">Contact Us</a>
-        </div>
-        <div id="content">
-            <hr/>
-            <center/><img src="Java-Stop-IMG.png" alt="Java Stop Logo" style="width: 400px;height: 150px"/>
-            <center/><div style="max-width:400px; word-wrap:break-word">
-               <p align="left">
-                   The Java Stop<br/> 
-                   This is a fictitious restaurant created as part of the HTML Restaurant Lab to allow for 
-                   the creation of multiple linked HTML documents.  We can create a Home, Menu, and 
-                   Contact Us page all for Java Stop.
-               </p>
-        </div>
-        <div id="footer">
-            <hr/>
-            <center/><h5>1010 Code Street,Silicon Valley,California,09999</h5>
-            <center/><h5>(101)111-1001</h5>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="header" class="col-xs-12">
+                    <center/><h1>The Java Stop</h1>
+                <hr/>
+                </div>
+            </div>
+            <div class="row">    
+                <div id="navigation" class="col-xs-4">
+                    <ul class="nav nav-tabs">
+                        <li><a href="Home-Page.html" class="nav-tabs"><span class= "glyphicon glyphicon-home": before>Home</span></a></li>
+                        <li><a href="Menu-Page.html" class="nav-tabs">Menu</a></li>                    
+                        <li><a href="Contact-Us-Page.html" class="nav-tabs">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">  
+                <div id"Jumbotron"class="col-xs-4">
+                    <center/>
+                    <p class="jumbotron">
+                        Restaurant is opening in a new location!
+                    </p>
+                </div>
+            </div>
+            <div class="row">  
+                <div id="content" class="col-xs-12">
+                    <hr/>
+                    <center/><img src="Java-Stop-IMG.png" alt="Java Stop Logo" style="width: 400px;height: 150px"/>
+                    <center/><div style="max-width:400px; word-wrap:break-word">
+                    <p align="left">
+                        The Java Stop<br/> 
+                        This is a fictitious restaurant created as part of the HTML Restaurant Lab to allow for 
+                        the creation of multiple linked HTML documents.  We can create a Home, Menu, and 
+                        Contact Us page all for Java Stop.
+                    </p>
+                </div>
+            </div>
+            <div class="row"> 
+                <div id="footer" class="col-xs-12">
+                    <hr/>
+                    <center/><h5>1010 Code Street,Silicon Valley,California,09999</h5>
+                    <center/><h5>(101)111-1001</h5>
+                </div>
+            </div>
         </div>
     </body>
 </html>

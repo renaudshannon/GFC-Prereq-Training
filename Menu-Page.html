@@ -2,6 +2,7 @@
 <html>  
     <head>
         <title>The Java Stop Menu Page</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
         <link href="restaurantStyles.css"
             rel="stylesheet"
             type="text/css"/>
@@ -19,16 +20,16 @@
         <hr/>
         </div>
         <div id="navigation">
-            <a href="Home-Page.html">Home</a> &emsp;
-            <a href="Menu-Page.html">Menu</a> &emsp;                    
-            <a href="Contact-Us-Page.html">Contact Us</a>
+            <ul class="nav nav-tabs">
+                <li><a href="Home-Page.html" class="nav-tabs"><span class= "glyphicon glyphicon-home": before>Home</span></a></li>
+                <li><a href="Menu-Page.html" class="nav-tabs">Menu</a></li>                    
+                <li><a href="Contact-Us-Page.html" class="nav-tabs">Contact Us</a></li>
+            </ul>
         </div>
-        <div id="content">
+         <div id="content">
             <hr/>
-            <center/><table id="table1">
-                <tr>
-                    <center/>
-                    <td>
+                <div class="row">
+                    <div class="col-xs-4">
                         <center/>
                         <h4>Burger and Fries</h4>
                         <h6><p>
@@ -39,10 +40,8 @@
                             french fries<br/>
                             $7.95
                         </p></h6>
-                    </td>
-                    <td></td>
-                    <td></td>
-                    <td>
+                    </div>
+                    <div class="col-xs-4">
                         <center/>
                         <h4>Hot Dog and Chips</h4>
                         <h6><p>
@@ -52,10 +51,8 @@
                             Served with our house-made chips<br/>
                             $7.95
                         </p></h6>
-                    </td>
-                    <td></td>
-                    <td></td>
-                    <td>
+                    </div>
+                    <div class="col-xs-4">
                         <center/>
                         <h4>Italian Sausage and Peppers</h4>
                         <h6><p>
@@ -65,12 +62,10 @@
                             Served with garlic mashers<br/>
                             $7.95
                         </p></h6>
-                    </td>
-                </tr>
-                <br/>
-                <tr>
-                    <center/>    
-                    <td>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
                         <center/>                    
                         <h4>Tenderloin Sandwich and Chips</h4>
                         <h6><p>
@@ -80,10 +75,8 @@
                             Served with our house-made chips<br/>
                             $8.95
                         </p></h6>
-                    </td>
-                    <td></td>
-                    <td></td>
-                    <td>
+                    </div>
+                    <div class="col-xs-4">
                         <center/>                   
                         <h4>House Salad</h4>
                         <h6><p>
@@ -94,10 +87,8 @@
                             Served with a dinner roll<br/>
                             $6.95
                         </p></h6>
-                    </td>
-                    <td></td>
-                    <td></td>
-                    <td>
+                    </div>
+                    <div class="col-xs-4">
                         <center/>
                         <h4>Brisket Sandwich and Fries</h4>
                         <h6><p>
@@ -109,13 +100,12 @@
                             french fries<br/>
                             $7.95
                         </p></h6>
-                    </td>
-                </tr>
-            </table>
+                    </div>
+                </div>
             <br/>
         </div>
         <div id="beverages">
-            <center/><table id="table2">
+            <center/><table id="table2" class=table-hover>
                 <caption id="caption">Beverages</caption>
                 <tbody id="tbody">
                     <tr id="tr2">

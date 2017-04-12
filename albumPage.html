@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>  
-        <title>Metallica</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
         <link href="albumStyles.css"
             rel="stylesheet"
-            type="text/css"/>
+            type="text/css"/>        
+        <title>Metallica</title>
         <!--internal style sheet below-->
         <style>
             #Name{
@@ -16,19 +17,19 @@
             #Members{
                 border: 3px darkblue dashed;                
             }
-            #Tracks{
-                font-style: italic;                
-            }
             #Image{
                 background-image: url("https://up-1.cdn-fullscreendirect.com/production/photos/7549/medium/20150807_215617_7549_752895.jpeg");
                 background-repeat: no-repeat;
                 Height:400px;
                 background-position: center;
             }
-        </style>
+            .Tracks{
+                font-style: italic;
+            }
+        </style>                    
     </head>
     <body>
-        <div id="Image">
+        <div id="Image" class="img-circle">
         </div>
         <div id="Name">
             <center/>
@@ -53,10 +54,10 @@
                 <li>Bob Rock - Producer with Hetfield and Ulrich</li>
             </ul>
         </div>
-        <div id="Tracks">
+        <div class="Tracks">
             <!--Tracks div contains in-line styling for Lab-->
             <br/>
-            <table border="1" width="100%" style="color:black">
+            <table class="table-responsive table-striped" border="1" width="100%" style="color:black">
                 <caption style="color:greenyellow;font-weight:bold;font-size:150%;font-family:Arial, Helvetica, sans-serif">Tracks</caption>
                 <thead>
                     <tr>

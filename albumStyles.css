@@ -23,7 +23,7 @@ a:active {
 	text-decoration: none;
     color: darkblue;
     }
-thead {
+/*thead {
 	background-color: lightslategray;
 	}					
 tbody tr:nth-child(even) {
@@ -31,4 +31,4 @@ tbody tr:nth-child(even) {
 	}					
 tbody tr:nth-child(odd) {
 	background-color: steelblue;
-	}
+	}*/
